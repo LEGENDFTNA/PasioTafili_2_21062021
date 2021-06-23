@@ -81,16 +81,6 @@ a:hover
 	padding: 10px 15px;
 	border-radius: 15px 0 0 15px;
 }
-.fa-info, p {
-    display: flex;
-    flex-direction: row;
-}
-.fa-info {
-    padding: 8px;
-    border: 1px solid #f1f2f2;
-    border-radius: 50%;
-    color: #a2b3ff;
-}
 #critere {
     width: auto;
     display: flex;
@@ -98,9 +88,10 @@ a:hover
 .filtres {
 	display: flex;
     flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
     align-items: flex-start;
     margin-top: 30px;
+    margin-left: 20px;
 }
 .eco {
     padding: 12px;
@@ -113,28 +104,53 @@ a:hover
 	background-color: #DFEDFF;
 	border-radius: 50%;
 	color: #2651ff;
+    left: 5px;
+    margin-left: 20px;
 }
 .love {
     padding: 12px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
 	color: #2651ff;
+    margin-left: 20px;
 }
 .chien {
     padding: 12px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
 	color: #2651ff;
+    margin-left: 20px;
 }
 .filtre {
-    border: 1px solid #e3e3e3;
-    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.filtre {
+    border: 1px solid #e5e4e4;
+    width: auto;
     padding: 10px;
     font-weight: bold;
     color: black;
-    padding-left: 35px;
+    padding-left: 25px;
     margin-left: -12px;
-    position: relative;
+}
+.filtre {
+    border-radius: 0px 20px 20px 0px;
+    border-left: white;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.fa-info {
+    padding: 8px;
+    border: 1px solid #f1f2f2;
+    border-radius: 50%;
+    height: 50%;
+    color: #3e3bff;
+}
+.info, p {
+    margin-left: 12px;
 }
 #hebergement {
     display: flex;
@@ -159,7 +175,6 @@ h2 {
 figure {
 	width: 240px;
 	height: 230px;
-	position: relative;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px lightgrey;
 }
@@ -178,13 +193,13 @@ figcaption h3, figcaption p {
 }
 h3 {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 #populaire {
 	width: 30%;
 	margin-left: 30px;
-	border: 1px solid silver;
-	background-color: silver;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
 	border-radius: 15px;
 }
 .image-populaire {
