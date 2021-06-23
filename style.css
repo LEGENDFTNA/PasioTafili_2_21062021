@@ -68,8 +68,8 @@ a:hover
     color: blue;
 }
 .recherche {
-    background-color:blue;
-    border: 1px solid blue;
+    background-color:#0651ff;
+    border: 1px solid #0651ff;
     border-radius: 0px 10px 10px 0px;
     padding: 10px;
     color: white;
@@ -77,65 +77,71 @@ a:hover
 }
 .localisation {
     width: 15px;
-	background-color:rgba(245, 245, 245, 0.875);
+	background-color: #f2f2f2;
 	padding: 10px 15px;
 	border-radius: 15px 0 0 15px;
 }
-li {
-    width: auto;
+.fa-info, p {
+    display: flex;
+    flex-direction: row;
 }
-li {
-    border: 1px solid whitesmoke;
+.fa-info {
+    padding: 8px;
+    border: 1px solid #f1f2f2;
+    border-radius: 50%;
+    color: #a2b3ff;
+}
+#critere {
+    width: auto;
+    display: flex;
+}
+.filtres {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.eco {
+    padding: 12px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+}
+.fam {
+    padding: 12px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+}
+.love {
+    padding: 12px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+}
+.chien {
+    padding: 12px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+}
+.filtre {
+    border: 1px solid #e3e3e3;
     width: 130px;
     padding: 10px;
     font-weight: bold;
     color: black;
-    border-radius: 0 15px 15px 0;
-}
-i {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.argent {
-    padding: 11px;
-    background-color: rgb(236, 230, 250);
-    border-radius: 50%;
-    color: blue;
-    position: absolute;
-}
-.enfant {
-    padding: 11px;
-    background-color: rgb(236, 230, 250);
-    border-radius: 50%;
-    color: blue;
-    position: absolute;
-}
-.coeur {
-    padding: 11px;
-    background-color: rgb(236, 230, 250);
-    border-radius: 50%;
-    color: blue;
-    position: absolute;
-}
-.chien {
-    padding: 11px;
-    background-color: rgb(236, 230, 250);
-    border-radius: 50%;
-    color: blue;
-    position: absolute;
-}
-.critere {
-	width: 50%;
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: space-between;
+    padding-left: 35px;
+    margin-left: -12px;
+    position: relative;
 }
 #hebergement {
     display: flex;
 }
 h2 {
     padding-left: 20px;
+    flex-basis: 100%;
 }
 #marseille {
 	display: flex;
@@ -145,23 +151,34 @@ h2 {
 	background-color: #f2f2f2;
 	border-radius: 15px;
 }
-.photos_marseille {
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: flex-start;
+#marseille {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+figure {
+	width: 240px;
+	height: 230px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px lightgrey;
 }
 figcaption h3, figcaption p {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	margin-left: 0;
+	margin-left: 5px;
 }
 .image-hebergement {
     object-fit: cover;
 	width: 220px;
-	height: 120px;
+    height: 140px;
 	border-bottom: 0px;
 	border-radius: 15px;
 	border: 5px solid white;
+}
+h3 {
+    display: flex;
+    align-items: flex-start;
 }
 #populaire {
 	width: 30%;
