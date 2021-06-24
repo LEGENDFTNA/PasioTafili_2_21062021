@@ -175,7 +175,7 @@ h2 {
     flex-wrap: wrap;
 }
 figure {
-	width: 240px;
+	width: 230px;
 	height: 230px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px lightgrey
@@ -194,6 +194,9 @@ figcaption h3, figcaption p {
 	border-radius: 15px;
 	border: 5px solid white;
 }
+.photo-marseille {
+    margin-right: auto;
+}
 h3 {
     display: flex;
     align-items: flex-end;
@@ -207,26 +210,28 @@ h3 {
 	background-color: #f2f2f2;
 	border-radius: 15px;
 }
-h2, .fa-chart-line {
+.titre {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 .image-populaire {
-    width: 150px;
+    width: 100px;
     height: 110px;
     object-fit: cover;
     border-bottom: 0px;
-	border-radius: 15px;
+	border-radius: 15px 0px 0px 15px;
 	border: 5px solid white;
 }
-.image-populaire {
-    padding-right: 150px;
+.photo-populaire {
+    display: flex;
 }
 .photo-populaire {
-	width: 150px;
-	height: 110px;
-	border-radius: 10px;
+	width: auto;
+	height: 120px;
+	border-radius: 15px;
 	box-shadow: 5px 5px 10px lightgrey;
+    margin-top: 40px;
 }
 .blue {
     color: blue;
@@ -237,55 +242,84 @@ h2, .fa-chart-line {
 #activites {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    width: auto;
 }
 .image-port-marseille {
     object-fit: cover;
 	width: 290px;
-    height: 440px;
+    height: 290px;
 	border-bottom: 0px;
-	border-radius: 15px;
-	border: 5px solid white;
+	border-radius: 15px 15px 0px 0px;
+	border: 1px solid white;
+}
+.port {
+    width: 300px;
+    height: 330px;
 }
 .image-fort-marseille {
     object-fit: cover;
 	width: 220px;
-    height: 140px;
+    height: 130px;
 	border-bottom: 0px;
-	border-radius: 15px;
+	border-radius: 15px 15px 0px 0px;
 	border: 5px solid white;
+}
+.fort {
+    width: 230px;
+    height: 130px;
 }
 .image-ile-marseille {
     object-fit: cover;
 	width: 220px;
-    height: 140px;
+    height: 90px;
 	border-bottom: 0px;
-	border-radius: 15px;
+	border-radius: 15px 15px 0px 0px;
 	border: 5px solid white;
+}
+.ile {
+    width: 230px;
+    height: 140px;
+}
+.photo-activite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .image-parc-national-marseille {
     object-fit: cover;
 	width: 290px;
-    height: 440px;
+    height: 290px;
 	border-bottom: 0px;
-	border-radius: 15px;
-	border: 5px solid white;
+	border-radius: 15px 15px 0px 0px;
+	border: 1px solid white;
+}
+.parc1 {
+    width: 300px;
+    height: 330px;
 }
 .image-dame-marseille {
     object-fit: cover;
 	width: 220px;
-    height: 180px;
+    height: 90px;
 	border-bottom: 0px;
-	border-radius: 15px;
+	border-radius: 15px 15px 0px 0px;
 	border: 5px solid white;
+}
+.dame {
+    width: 230px;
+    height: 140px;
 }
 .image-parc-marseille {
     object-fit: cover;
 	width: 220px;
-    height: 180px;
+    height: 140px;
 	border-bottom: 0px;
-	border-radius: 15px;
+	border-radius: 15px 15px 0px 0px;
 	border: 5px solid white;
+}
+.parc2 {
+    width: 230px;
+    height: 140px;
 }
 #pieddepage {
    position: relative;
@@ -300,7 +334,12 @@ footer {
 }
 ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a {
+    color: black;
+    margin-top: 10px;
 }
 
 
