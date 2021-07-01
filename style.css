@@ -5,7 +5,9 @@ body{
 .logo {
     width: 95px;
     height: 45px;
-    margin-top: 10px;
+}
+header {
+    margin: 0px 20px 0px 20px;
 }
 #hautdepage {
     position: relative;
@@ -52,6 +54,9 @@ a:hover
 .inscrire {
     color: blue;
 }
+#recherche-marseille {
+    margin: 0px 20px 0px 20px;
+}
 .Marseille {
     width: auto;
 }
@@ -82,52 +87,20 @@ a:hover
 	border-radius: 15px 0 0 15px;
 }
 #critere {
-    width: auto;
     display: flex;
+    margin: 0px 20px 0px 20px;
 }
-.filtres {
+.list-filtres {
 	display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 	justify-content: space-around;
-    align-items: flex-start;
     margin-top: 30px;
-    margin-left: 20px;
-}
-.eco {
-    padding: 12px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #2651ff;
-}
-.fam {
-    padding: 12px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #2651ff;
-    left: 5px;
-    margin-left: 20px;
-}
-.love {
-    padding: 12px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #2651ff;
-    margin-left: 20px;
-}
-.chien {
-    padding: 12px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #2651ff;
-    margin-left: 20px;
 }
 .filtre {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-content: center;
 }
-.filtre {
+.filtre-text {
     border: 1px solid #e5e4e4;
     width: auto;
     padding: 10px;
@@ -136,9 +109,37 @@ a:hover
     padding-left: 25px;
     margin-left: -12px;
 }
-.filtre {
+.filtre-text {
     border-radius: 0px 20px 20px 0px;
     border-left: white;
+}
+.eco {
+    padding: 11px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+    margin-left: 50px;
+}
+.fam {
+    padding: 14px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+    margin-left: 50px;
+}
+.love {
+    padding: 12px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+    margin-left: 50px;
+}
+.chien {
+    padding: 12px;
+	background-color: #DFEDFF;
+	border-radius: 50%;
+	color: #2651ff;
+    margin-left: 50px;
 }
 .info {
     display: flex;
@@ -151,14 +152,11 @@ a:hover
     height: 50%;
     color: #3e3bff;
 }
-.info, p {
-    margin-left: 12px;
-}
 #hebergement {
     display: flex;
+    margin: 0px 20px 0px 20px;
 }
 h2 {
-    padding-left: 20px;
     flex-basis: 100%;
 }
 #marseille {
@@ -185,6 +183,7 @@ figcaption h3, figcaption p {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
+    font-size: 1rem;
 }
 .image-hebergement {
     object-fit: cover;
@@ -194,14 +193,12 @@ figcaption h3, figcaption p {
 	border-radius: 15px;
 	border: 5px solid white;
 }
-.photo-marseille {
-    margin-right: auto;
-}
 h3 {
     display: flex;
     align-items: flex-end;
     align-content: flex-start;
     margin-left: 40px;
+    flex-basis: 100%;
 }
 #populaire {
 	width: 30%;
@@ -243,6 +240,9 @@ h3 {
 .gray {
     color: darkgrey;
 }
+#activites {
+    margin: 0px 20px 0px 20px;
+}
 #activites-marseille {
     display: flex;
     flex-direction: row;
@@ -250,13 +250,12 @@ h3 {
 }
 .image-port-marseille {
     object-fit: cover;
-	width: 300px;
+	width: 270px;
     height: 290px;
-	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
 .port {
-    width: 300px;
+    width: 270px;
     height: 330px;
 }
 .image-fort-marseille {
@@ -288,13 +287,13 @@ h3 {
 }
 .image-parc-national-marseille {
     object-fit: cover;
-	width: 300px;
+	width: 270px;
     height: 290px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
 .parc-national {
-    width: 300px;
+    width: 270px;
     height: 330px;
 }
 .image-dame-marseille {
