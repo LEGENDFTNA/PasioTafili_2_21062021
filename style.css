@@ -162,7 +162,7 @@ h2 {
 #marseille {
 	display: flex;
     flex-direction: column;
-	width: 80%;
+	width: 62%;
 	border: 1px solid #f2f2f2;
 	background-color: #f2f2f2;
 	border-radius: 15px;
@@ -171,6 +171,9 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.photo-marseille {
+    width: 260px;
 }
 figure {
 	width: 230px;
@@ -201,7 +204,7 @@ h3 {
     flex-basis: 100%;
 }
 #populaire {
-	width: 30%;
+	width: 35%;
 	margin-left: 30px;
 	border: 1px solid #f2f2f2;
 	background-color: #f2f2f2;
@@ -215,10 +218,11 @@ h3 {
 .fa-chart-line {
     margin-top: 25px;
     margin-right: 40px;
+
 }
 .image-populaire {
-    width: 100px;
-    height: 110px;
+    width: 120px;
+    height: 130px;
     object-fit: cover;
     border-bottom: 0px;
 	border-radius: 15px 0px 0px 15px;
@@ -229,7 +233,7 @@ h3 {
 }
 .photo-populaire {
 	width: auto;
-	height: 120px;
+	height: 140px;
 	border-radius: 15px;
 	box-shadow: 5px 5px 10px lightgrey;
     margin-top: 40px;
@@ -239,6 +243,24 @@ h3 {
 }
 .gray {
     color: darkgrey;
+}
+.etoile-bleu {
+    color: blue;
+}
+.etoile-bleu1 {
+    color: blue;
+}
+.gris1 {
+    color: darkgrey;
+}
+.gris {
+    color: darkgrey;
+}
+.etoile-bleu, .gris {
+    padding-top: 64px;
+}
+.etoile-bleu1, .gris1 {
+    padding-top: 50px;
 }
 #activites {
     margin: 0px 20px 0px 20px;
@@ -251,34 +273,34 @@ h3 {
 .image-port-marseille {
     object-fit: cover;
 	width: 270px;
-    height: 290px;
+    height: 340px;
 	border-radius: 15px 10px 0px 0px;
 }
 .port {
     width: 270px;
-    height: 330px;
+    height: 380px;
 }
 .image-fort-marseille {
     object-fit: cover;
 	width: 230px;
-    height: 110px;
+    height: 140px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
 .fort {
     width: 230px;
-    height: 150px;
+    height: 180px;
 }
 .image-ile-marseille {
     object-fit: cover;
 	width: 230px;
-    height: 90px;
+    height: 120px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
 .ile {
     width: 230px;
-    height: 130px;
+    height: 160px;
 }
 .photo-activite {
     display: flex;
@@ -288,35 +310,35 @@ h3 {
 .image-parc-national-marseille {
     object-fit: cover;
 	width: 270px;
-    height: 290px;
+    height: 340px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
 .parc-national {
     width: 270px;
-    height: 330px;
+    height: 380px;
 }
 .image-dame-marseille {
     object-fit: cover;
 	width: 230px;
-    height: 90px;
+    height: 120px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
 .dame {
     width: 230px;
-    height: 130px;
+    height: 160px;
 }
 .image-parc-marseille {
     object-fit: cover;
 	width: 230px;
-    height: 110px;
+    height: 140px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
 .parc {
     width: 230px;
-    height: 150px;
+    height: 180px;
 }
 #pieddepage {
    position: relative;
@@ -337,6 +359,58 @@ ul {
 a {
     color: black;
     margin-top: 10px;
+}
+@media screen and (max-width: 1280px) and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #recherche-marseille, #ville, #critere {
+        width: 80%;
+        margin-left: 10px;
+    }
+    .logo {
+		width: 60px;
+		height: 30px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+    #hautdepage {
+        width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+    }
+    #hautdepage nav ul {
+        width: 100%;
+		border-bottom: 2px solid #F2F2F2;
+		padding: 0;
+		padding-bottom: 20px;
+    }
+    #hautdepage nav li, #hautdepage nav a {
+		margin: 0;
+	}
+	#hautdepage nav a {
+		margin-right: 0;
+		padding-right: 55px;
+	}
+	.inscrire {
+		position: absolute;
+		top: 10px;
+		left: 70%;
+	}
+	.hebergement:hover, .activites:hover {
+		color: #0065FC;
+		border-bottom: none;
+		border-top: none;
+	}
+	.Marseille {
+		width: 60%;
+	}
+    footer {
+        width: auto;
+        flex-direction: column;
+        align-items: left;
+    }
 }
 
 
