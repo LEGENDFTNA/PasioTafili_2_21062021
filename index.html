@@ -12,11 +12,11 @@
         <header>
             <div id="hautdepage">
                 <img class="logo" src="images/logo/Reservia@3x.png" alt="logo_site">
-                <nav>
-                      <a href="hebergement" class="hebergement">Hébergement</a>
-                      <a href="activites" class="activites">Activités</a>
-                      <a href="inscrire" class="inscrire">S'inscrire</a>
-                </nav>
+                <div id="boutons_menu">
+                    <a href="hebergement" class="hebergement">Hébergement</a>
+                    <a href="activites" class="activites">Activités</a>
+                </div>
+                <a href="inscrire" class="inscrire">S'inscrire</a>
             </div>
         </header>
         <main>
@@ -27,19 +27,31 @@
                 <i class="fas fa-map-marker-alt localisation"></i>
                     <input type="text" name="ville" value="Marseille, France" class="Marseille">
                     <input type="submit" value="Rechercher" class="recherche">
+                    <i class="fas fa-search"></i>
                 </form>
             </div>
             <div id="critere">
                 <div class="list-filtres">
                     <div class="filtre">
-                    <i class="fas fa-money-bill-wave eco"></i><div class="filtre-text">Economique</div></div>
+                        <i class="fas fa-money-bill-wave eco"></i>
+                        <div class="filtre-text">Economique
+                    </div>
+                    </div>
                     <div class="filtre"> 
-                    <i class="fas fa-child fam"></i><div class="filtre-text">Familliale</div></div>
+                        <i class="fas fa-child fam"></i>
+                        <div class="filtre-text">Familliale
+                        </div>
+                    </div>
                     <div class="filtre">
-                    <i class="fas fa-heart love"></i>
-                    <div class="filtre-text">Romantique</div></div>
+                        <i class="fas fa-heart love"></i>
+                        <div class="filtre-text">Romantique
+                    </div>
+                    </div>
                     <div class="filtre">
-                    <i class="fas fa-dog chien"></i><div class="filtre-text">Animaux autorisés</div></div>
+                        <i class="fas fa-dog chien"></i>
+                        <div class="filtre-text">Animaux autorisés
+                    </div>
+                    </div>
                 </div>
             </div>
             <div class="info">
@@ -194,7 +206,6 @@
         </section>
         </main>
         <footer>
-            <div id="pieddepage">
                 <div class="pied">
                 <h3>A propos</h3>
                     <ul>
@@ -216,7 +227,6 @@
                         <a href="centre">Centre d'aide</a>
                         <a href="contact">Nous contacter</a>
                     </ul>
-            </div>
         </footer>
     </body>
 </html>
