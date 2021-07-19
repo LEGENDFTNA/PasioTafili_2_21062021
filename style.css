@@ -9,6 +9,9 @@ body{
     width: 95px;
     height: 45px;
 }
+.entete {
+    flex-basis: 80%;
+}
 header {
     margin: 0px 20px 0px 20px;
 }
@@ -20,6 +23,9 @@ header {
 	font-size: 12px;
 	text-decoration: none;
     padding-top: 20px;
+}
+.activites {
+    padding-left: 40px;
 }
 #boutons_menu {
     display: flex;
@@ -91,6 +97,8 @@ header {
 }
 .fa-search {
     display: none;
+    width: 15px;
+    background-color: ;
 }
 #critere {
     display: flex;
@@ -183,13 +191,12 @@ h2 {
 }
 .image-hebergement {
     object-fit: cover;
-	width: 220px;
+	width: 270px;
     height: 140px;
 	border-radius: 15px 15px 0px 0px;
 }
-.photo-marseille {
+.photo-hebergement {
     width: 270px;
-    height: auto;
     border-radius: 10px 10px;
 	box-shadow: 5px 5px 10px lightgrey
 }
@@ -221,7 +228,6 @@ h3 {
 .fa-chart-line {
     margin-top: 25px;
     margin-right: 40px;
-
 }
 .image-populaire {
     width: 120px;
@@ -231,10 +237,12 @@ h3 {
 	border-radius: 15px 0px 0px 15px;
 	border: 5px solid white;
 }
-.photo-populaire {
+#populaire-marseille {
     display: flex;
+    flex-direction: column;
 }
 .photo-populaire {
+    display: flex;
 	width: auto;
 	height: 140px;
 	border-radius: 15px;
@@ -352,7 +360,6 @@ desktop : supérieur à 1081px  */
     #boutons_menu {
         order:4
     }
-    
     #recherche-marseille, #ville, #critere {
         width: 80%;
         margin-left: 10px;
@@ -393,7 +400,9 @@ desktop : supérieur à 1081px  */
         width: 100%;
         border-radius: 15px 15px 0px 0px;
         object-fit: cover;
-
+    }
+    .photo-hebergement {
+        width: 100%;
     }
     #populaire {
         width: 100%;
@@ -413,34 +422,53 @@ desktop : supérieur à 1081px  */
         flex-wrap: wrap-reverse;
     }
     .image-port-marseille{
-        width: 230px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
     }
     .image-fort-marseille{
-        width: 230px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
     }
     .image-ile-marseille{
-        width: 230px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
     }
     .image-parc-national-marseille{
-        width: 230px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
     }
     .image-dame-marseille{
-        width: 230px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
     }
     .image-parc-marseille{
-        width: 230px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
     }
     footer {
         display: flex;
         flex-direction: column;
         align-items: left;
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1080px) {
+    #populaire-marseille {
+        display: flex;
+    }
+    #hebergement {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    #populaire {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #marseille {
+        width: 100%;
+    }
+    .fa-search {
+        display: none;
     }
 }
 
