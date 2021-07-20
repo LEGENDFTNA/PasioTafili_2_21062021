@@ -61,10 +61,13 @@ header {
 .inscrire:hover {
     border-top: 2px solid blue;
 }
-/* ----------- Section Hebergements ----------- */
+/* ----------- Section Recherche ----------- */
 
 #recherche-marseille {
     margin: 0px 20px 0px 20px;
+}
+#recherche-marseille h2 {
+    margin-top: 0px;
 }
 .Marseille {
     width: auto;
@@ -95,10 +98,8 @@ header {
 	padding: 10px 15px;
 	border-radius: 15px 0 0 15px;
 }
-.fa-search {
+.search {
     display: none;
-    width: 15px;
-    background-color: ;
 }
 #critere {
     display: flex;
@@ -166,6 +167,7 @@ header {
     height: 50%;
     color: #3e3bff;
 }
+/* ----------- Section Hebergements ----------- */
 #hebergement {
     display: flex;
     margin: 0px 20px 0px 20px;
@@ -213,6 +215,7 @@ h3 {
     margin-left: 40px;
     flex-basis: 100%;
 }
+/* ----------- Aside Populaire -----------*/
 #populaire {
 	width: 35%;
     margin-left: 30px;
@@ -273,6 +276,7 @@ h3 {
 .etoile-bleu1, .gris1 {
     padding-top: 50px;
 }
+/* ----------- Activites Marseille -----------*/
 #activites {
     margin: 0px 20px 0px 20px;
 }
@@ -326,6 +330,7 @@ h3 {
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
+/* ----------- Footer -----------*/
 footer {
     display: flex;
     justify-content: space-between;
@@ -349,11 +354,6 @@ footer a {
 
 /* ####### MEDIA-QUERY ######## */
 
-/* Breakpoints :  
-mobile : inférieur à  650px 
-tablette : de 651px à 1080px 
-desktop : supérieur à 1081px  */
-
 @media screen and (max-width: 650px) { /* Mobile */
 
     /* Header */
@@ -361,7 +361,6 @@ desktop : supérieur à 1081px  */
         order:4
     }
     #recherche-marseille, #ville, #critere {
-        width: 80%;
         margin-left: 10px;
     }
     .logo {
@@ -392,6 +391,25 @@ desktop : supérieur à 1081px  */
 		border-bottom: none;
 		border-top: none;
 	}
+    /*-----Section Recherche-----*/
+    .recherche {
+        display: none;
+    }
+    .search {
+        display: initial;
+    }
+    .loupe {
+        width: 15px;
+	    background-color:#0065fc;
+	    padding: 10px 15px;
+	    border-radius: 0px 15px 15px 0px;
+        margin-left: -5px;
+    }
+    /*-----Section Hebergement-----*/
+    #hebergement {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
     #marseille {
         width: 100%;
         margin-top: 20px;
@@ -404,6 +422,7 @@ desktop : supérieur à 1081px  */
     .photo-hebergement {
         width: 100%;
     }
+    /*------Aside Populaire-----*/
     #populaire {
         width: 100%;
         margin-left: 0px;
@@ -417,34 +436,19 @@ desktop : supérieur à 1081px  */
         height: 100%;
         overflow: auto;
     }
-    #hebergement {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-    .image-port-marseille{
+    /*-----Activites Marseille-----*/
+    .image-port-marseille,
+    .image-dame-marseille,
+    .image-fort-marseille,
+    .image-ile-marseille,
+    .image-parc-national-marseille,
+    .image-parc-marseille {
+        object-fit: cover;
         width: 100%;
-        height: 100%;
+        height: 240px;
+        border-radius: 15px 10px 0px 0px;
     }
-    .image-fort-marseille{
-        width: 100%;
-        height: 100%;
-    }
-    .image-ile-marseille{
-        width: 100%;
-        height: 100%;
-    }
-    .image-parc-national-marseille{
-        width: 100%;
-        height: 100%;
-    }
-    .image-dame-marseille{
-        width: 100%;
-        height: 100%;
-    }
-    .image-parc-marseille{
-        width: 100%;
-        height: 100%;
-    }
+    /*-------Footer-------*/
     footer {
         display: flex;
         flex-direction: column;
@@ -452,10 +456,7 @@ desktop : supérieur à 1081px  */
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 1080px) {
-    #populaire-marseille {
-        display: flex;
-    }
+@media screen and (max-width: 1080px) { /* section hebergement */
     #hebergement {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -467,9 +468,19 @@ desktop : supérieur à 1081px  */
     #marseille {
         width: 100%;
     }
-    .fa-search {
+}
+@media screen and (min-width: 651px) {
+    .loupe {
         display: none;
     }
+}
+@media screen and (min-width: 1280px) { /* Activites Marseille */
+    .port,
+    .photo-activite,
+    .parc-national {
+        width: 20%;
+    }
+    
 }
 
 
