@@ -179,28 +179,27 @@ h2 {
     flex-basis: 100%;
 }
 #marseille {
-	display: flex;
-    flex-direction: column;
-	width: 62%;
+	width: 65%;
 	border: 1px solid #f2f2f2;
 	background-color: #f2f2f2;
 	border-radius: 15px;
 }
-#marseille {
+#heb-marseille {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .image-hebergement {
     object-fit: cover;
-	width: 270px;
+	width: 230px;
     height: 140px;
 	border-radius: 15px 15px 0px 0px;
 }
 .photo-hebergement {
-    width: 270px;
+    width: 230px;
     border-radius: 10px 10px;
-	box-shadow: 5px 5px 10px lightgrey
+	box-shadow: 5px 5px 10px lightgrey;
+    margin: 25px;
 }
 figcaption h3, figcaption p {
 	margin-top: 5px;
@@ -279,6 +278,7 @@ h3 {
 /* ----------- Activites Marseille -----------*/
 #activites {
     margin: 0px 20px 0px 20px;
+    width: auto;
 }
 #activites-marseille {
     display: flex;
@@ -354,7 +354,7 @@ footer a {
 
 /* ####### MEDIA-QUERY ######## */
 
-@media screen and (max-width: 650px) { /* Mobile */
+@media screen and (max-width: 600px) { /* Mobile */
 
     /* Header */
     #boutons_menu {
@@ -456,7 +456,7 @@ footer a {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 1080px) { /* section hebergement */
+@media screen and (max-width: 625px) { /* section hebergement */
     #hebergement {
         display: flex;
         flex-wrap: wrap-reverse;
