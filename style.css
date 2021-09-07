@@ -199,7 +199,7 @@ h2 {
     width: 230px;
     border-radius: 10px 10px;
 	box-shadow: 5px 5px 10px lightgrey;
-    margin: 25px;
+    margin: 15px;
 }
 figcaption h3, figcaption p {
 	margin-top: 5px;
@@ -252,22 +252,22 @@ h3 {
     margin-top: 40px;
 }
 .blue {
-    color: blue;
+    color: #0065FC;
 }
 .gray {
-    color: darkgrey;
+    color: #F2F2F2;
 }
 .etoile-bleu {
-    color: blue;
+    color: #0065FC;
 }
 .etoile-bleu1 {
-    color: blue;
+    color: #0065FC;
 }
 .gris1 {
-    color: darkgrey;
+    color: #F2F2F2;
 }
 .gris {
-    color: darkgrey;
+    color: #F2F2F2;
 }
 .etoile-bleu, .gris {
     padding-top: 64px;
@@ -410,6 +410,7 @@ footer a {
 	    padding: 10px 15px;
 	    border-radius: 0px 15px 15px 0px;
         margin-left: -5px;
+        display: none;
     }
     /*-----Section Hebergement-----*/
     #hebergement {
@@ -462,7 +463,7 @@ footer a {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 625px) { /* section hebergement */
+@media screen and (max-width: 320px) { /* section hebergement */
     #hebergement {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -473,11 +474,6 @@ footer a {
     }
     #marseille {
         width: 100%;
-    }
-}
-@media screen and (min-width: 651px) {
-    .loupe {
-        display: none;
     }
 }
 @media screen and (min-width: 1280px) { /* Activites Marseille */
