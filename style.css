@@ -297,6 +297,7 @@ h3 {
     height: 180px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
+    margin: auto;
 }
 .image-ile-marseille {
     object-fit: cover;
@@ -304,10 +305,13 @@ h3 {
     height: 120px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
+    margin: auto;
 }
 .photo-activite {
+    width: 230px;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 .image-parc-national-marseille {
     object-fit: cover;
@@ -322,6 +326,7 @@ h3 {
     height: 120px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
+    margin: auto;
 }
 .image-parc-marseille {
     object-fit: cover;
@@ -329,6 +334,7 @@ h3 {
     height: 180px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
+    margin: auto;
 }
 /* ----------- Footer -----------*/
 footer {
