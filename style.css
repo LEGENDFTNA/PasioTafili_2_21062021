@@ -464,6 +464,8 @@ footer a {
     }
 }
 @media screen and (min-width: 680px) and (max-width: 1024px) { /* Ipad */
+    
+    /*----haut de page----*/
     #hautdepage {
         display: flex;
         flex-direction: row;
@@ -473,6 +475,16 @@ footer a {
     .hebergement {
         padding-left: 0px;
         padding-right: 40px;
+    }
+    /*-----section hebergement-----*/
+    #hebergement {
+        width: 95%;
+    }
+    #populaire {
+        width: 45%;
+    }
+    .etoile-bleu, .gris {
+        padding-top: 50px;
     }
 
 }
