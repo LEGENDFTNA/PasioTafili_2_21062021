@@ -455,6 +455,9 @@ footer a {
         height: 240px;
         border-radius: 15px 10px 0px 0px;
     }
+    .photo-activite {
+        width: 100%;
+    }
     /*-------Footer-------*/
     footer {
         display: flex;
@@ -486,7 +489,18 @@ footer a {
     .etoile-bleu, .gris {
         padding-top: 50px;
     }
-
+    /*-----activites marseille----*/
+    #activites-marseille {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .description-fort,
+    .description-ile,
+    .description-dame,
+    .description-parc {
+        width: 230px;
+    }
 }
 @media all and (min-width: 1024px) {
     .search {
