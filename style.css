@@ -360,7 +360,7 @@ footer a {
 
 /* ####### MEDIA-QUERY ######## */
 
-@media screen and (max-width: 600px) { /* Mobile */
+@media screen and (min-width: 320px) and (max-width: 680px) { /* Mobile */
 
     /* Header */
     #boutons_menu {
@@ -415,7 +415,7 @@ footer a {
     /*-----Section Hebergement-----*/
     #hebergement {
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
     }
     #marseille {
         width: 100%;
@@ -463,26 +463,23 @@ footer a {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 320px) { /* section hebergement */
-    #hebergement {
+@media screen and (min-width: 680px) and (max-width: 1024px) { /* Ipad */
+    #hautdepage {
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        justify-content: space-between;
     }
-    #populaire {
-        width: 100%;
-        margin-left: 0px;
+    .activites,
+    .hebergement {
+        padding-left: 0px;
+        padding-right: 40px;
     }
-    #marseille {
-        width: 100%;
-    }
+
 }
-@media screen and (min-width: 1280px) { /* Activites Marseille */
-    .port,
-    .photo-activite,
-    .parc-national {
-        width: 20%;
+@media all and (min-width: 1024px) {
+    .search {
+        display: none;
     }
-    
 }
 
 
