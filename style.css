@@ -209,6 +209,9 @@ figcaption h3, figcaption p {
 	margin-left: 5px;
     font-size: 1rem;
 }
+figcaption {
+    padding: 10px;
+}
 h3 {
     display: flex;
     align-items: flex-end;
