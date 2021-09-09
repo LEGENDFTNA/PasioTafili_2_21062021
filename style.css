@@ -8,12 +8,10 @@ body{
 .logo {
     width: 95px;
     height: 45px;
+    margin-left: 20px;
 }
 .entete {
     flex-basis: 80%;
-}
-header {
-    margin: 0px 20px 0px 20px;
 }
 #hautdepage {
     display: flex;
@@ -23,6 +21,9 @@ header {
 	font-size: 12px;
 	text-decoration: none;
     padding-top: 20px;
+}
+.inscrire {
+    margin-right: 20px;
 }
 .activites {
     padding-left: 40px;
