@@ -288,7 +288,7 @@ h3 {
 .image-port-marseille {
     object-fit: cover;
 	width: 270px;
-    height: 340px;
+    height: 390px;
 	border-radius: 15px 10px 0px 0px;
 }
 .image-fort-marseille {
@@ -316,7 +316,7 @@ h3 {
 .image-parc-national-marseille {
     object-fit: cover;
 	width: 270px;
-    height: 340px;
+    height: 390px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
@@ -494,13 +494,61 @@ footer a {
         width: 100%;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
-    .description-fort,
-    .description-ile,
-    .description-dame,
-    .description-parc {
-        width: 230px;
+    .image-port-marseille {
+        object-fit: cover;
+        width: 135px;
+        height: 295px;
+        border-radius: 15px 10px 0px 0px;
     }
+    .image-fort-marseille {
+        object-fit: cover;
+        width: 135px;
+        height: 90px;
+        border-bottom: 0px;
+        border-radius: 15px 10px 0px 0px;
+        margin: auto;
+    }
+    .image-ile-marseille {
+        object-fit: cover;
+        width: 135px;
+        height: 60px;
+        border-bottom: 0px;
+        border-radius: 15px 10px 0px 0px;
+        margin: auto;
+    }
+    .photo-activite {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .image-parc-national-marseille {
+        object-fit: cover;
+        width: 135px;
+        height: 295px;
+        border-bottom: 0px;
+        border-radius: 15px 10px 0px 0px;
+        margin: 0px 0px 0px 60px;
+    }
+    .image-dame-marseille {
+        object-fit: cover;
+        width: 135px;
+        height: 60px;
+        border-bottom: 0px;
+        border-radius: 15px 10px 0px 0px;
+        margin: 0px 20px 0px 0px;
+    }
+    .image-parc-marseille {
+        object-fit: cover;
+        width: 135px;
+        height: 90px;
+        border-bottom: 0px;
+        border-radius: 15px 10px 0px 0px;
+        margin: auto;
+    }
+
 }
 @media all and (min-width: 1024px) {
     .search {
