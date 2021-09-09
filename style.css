@@ -275,10 +275,10 @@ h3 {
     color: #F2F2F2;
 }
 .etoile-bleu, .gris {
-    padding-top: 64px;
+    padding-top: 55px;
 }
 .etoile-bleu1, .gris1 {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 /* ----------- Activites Marseille -----------*/
 #activites {
@@ -559,6 +559,12 @@ footer a {
 @media all and (min-width: 1024px) {
     .search {
         display: none;
+    }
+    .etoile-bleu, .gris {
+        padding-top: 55px;
+    }
+    .etoile-bleu1, .gris1 {
+        padding-top: 40px;
     }
 }
 
