@@ -552,6 +552,20 @@ footer a {
     .photo-hebergement {
         width: 100%;
     }
+    /*------Aside Populaire-----*/
+    #populaire {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .photo-populaire {
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px lightgrey;
+        margin-top: 40px;
+        display: flex;
+        align-items: stretch;
+        height: 100%;
+        overflow: auto;
+    }
 }
 
 @media screen and (min-width: 680px) and (max-width: 1024px) { /* Ipad */
