@@ -254,7 +254,7 @@ h3 {
     color: #0065FC;
 }
 .gray {
-    color: #F2F2F2;
+    color: #f2f2f2;
 }
 .etoile-bleu {
     color: #0065FC;
@@ -263,10 +263,10 @@ h3 {
     color: #0065FC;
 }
 .gris1 {
-    color: #F2F2F2;
+    color: #f2f2f2;
 }
 .gris {
-    color: #F2F2F2;
+    color: #f2f2f2;
 }
 .etoile-bleu, .gris {
     padding-top: 55px;
@@ -550,6 +550,7 @@ footer a {
     }
     #recherche-marseille p {
         margin-left: 15px;
+        color: #f2f2f2;
     }
     .list-filtres {
         display: flex;
@@ -565,7 +566,6 @@ footer a {
     .chien {
         margin: 0px;
     }
-    
     .Marseille {
         border: 1px solid whitesmoke;
         width: 190px;
@@ -588,6 +588,9 @@ footer a {
     .info {
         margin-left: 10px;
     }
+    .info p {
+        color: #f2f2f2;
+    }
     .fa-info {
         margin-top: 15px;
     }
@@ -599,6 +602,8 @@ footer a {
     #marseille {
         width: 100%;
         margin-top: 20px;
+        background: white;
+        border: none;
     }
     .image-hebergement {
         width: 100%;
@@ -622,7 +627,8 @@ footer a {
         height: 100%;
         overflow: auto;
         margin: 10px 0px 0px 0px;
-        box-shadow: 0px 0;
+        box-shadow: none;
+        background: white;
     }
      /*-----Activites Marseille-----*/
      .image-port-marseille,
