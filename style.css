@@ -639,7 +639,7 @@ footer a {
      .image-parc-marseille {
          object-fit: cover;
          width: 100%;
-         height: 240px;
+         height: 140px;
          border-radius: 15px 10px 0px 0px;
      }
      .image-parc-national-marseille {
@@ -657,12 +657,26 @@ footer a {
      .ile {
         margin: 0px;
     }
+    .port,
+     .dame,
+     .fort,
+     .parc-national,
+     .parc,
+     .ile
+     {
+        width: 100%;
+        border-radius: 10px 10px;
+        box-shadow: 5px 5px 10px #f2f2f2;
+        border-radius: 0px 10px 10px 0px;
+        margin-bottom: 20px;
+    }
      /*-------Footer-------*/
     footer {
         display: flex;
         flex-direction: column;
         align-items: left;
         flex-wrap: wrap;
+        margin-top: 30px;
     }
 }
 
