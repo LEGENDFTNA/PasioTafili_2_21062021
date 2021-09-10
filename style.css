@@ -133,28 +133,28 @@ body{
     padding: 11px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #2651ff;
+	color: #0065fc;
     margin-left: 50px;
 }
 .fam {
     padding: 14px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #2651ff;
+	color: #0065fc;
     margin-left: 50px;
 }
 .love {
     padding: 12px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #2651ff;
+	color: #0065fc;
     margin-left: 50px;
 }
 .chien {
     padding: 12px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #2651ff;
+	color: #0065fc;
     margin-left: 50px;
 }
 .info {
@@ -166,7 +166,7 @@ body{
     border: 1px solid #f1f2f2;
     border-radius: 50%;
     height: 50%;
-    color: #3e3bff;
+    color: #0065fc;
 }
 /* ----------- Section Hebergements ----------- */
 #hebergement {
@@ -373,9 +373,6 @@ footer a {
     #boutons_menu {
         order:4
     }
-    #recherche-marseille, #ville, #critere {
-        margin-left: 10px;
-    }
     .logo {
 		width: 60px;
 		height: 30px;
@@ -411,6 +408,20 @@ footer a {
     .recherche {
         display: none;
     }
+    #recherche-marseille, #ville, #critere {
+        margin-left: 10px;
+    }
+    #recherche-marseille h2 {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #recherche-marseille p {
+        margin-left: 15px;
+    }
+    #ville {
+        display: flex;
+        justify-content: center;
+    }
     .search {
         display: initial;
     }
@@ -421,6 +432,7 @@ footer a {
 	    border-radius: 0px 15px 15px 0px;
         margin-left: -5px;
         display: none;
+        color: #f2f2f2;
     }
     /*-----Section Hebergement-----*/
     #hebergement {
@@ -535,7 +547,7 @@ footer a {
         display: none;
     }
     #recherche-marseille h2 {
-        margin-top: 0px;
+        margin-top: 20px;
         margin-left: 15px;
     }
     #recherche-marseille p {
@@ -589,6 +601,7 @@ footer a {
         height: 100%;
         overflow: auto;
         margin: 10px 0px 0px 0px;
+        box-shadow: 0px 0;
     }
      /*-----Activites Marseille-----*/
      .image-port-marseille,
