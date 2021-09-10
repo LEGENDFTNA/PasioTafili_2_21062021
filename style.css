@@ -470,6 +470,14 @@ footer a {
         width: 100%;
         margin-right: 0px;
     }
+    .port,
+     .dame,
+     .fort,
+     .parc-national,
+     .parc,
+     .ile {
+        margin: 0px;
+    }
     /*-------Footer-------*/
     footer {
         display: flex;
@@ -514,7 +522,7 @@ footer a {
 		left: 70%;
 	}
     .hebergement {
-        margin-left: 15px;
+        margin-left: 25px;
     }
 	.hebergement:hover, .activites:hover {
 		color: #0065FC;
@@ -524,6 +532,13 @@ footer a {
      /*-----Section Recherche-----*/
      .recherche {
         display: none;
+    }
+    #recherche-marseille h2 {
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+    #recherche-marseille p {
+        margin-left: 15px;
     }
     .search {
         display: initial;
@@ -535,6 +550,12 @@ footer a {
 	    border-radius: 0px 15px 15px 0px;
         margin-left: -5px;
         display: none;
+    }
+    .info {
+        margin-left: 10px;
+    }
+    .fa-info {
+        margin-top: 15px;
     }
     /*---Section Hebergement---*/
     #hebergement {
@@ -587,6 +608,14 @@ footer a {
          width: 100%;
          margin-right: 0px;
      }
+     .port,
+     .dame,
+     .fort,
+     .parc-national,
+     .parc,
+     .ile {
+        margin: 0px;
+    }
      /*-------Footer-------*/
     footer {
         display: flex;
