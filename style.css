@@ -106,12 +106,6 @@ body{
     display: flex;
     margin: 0px 20px 0px 20px;
 }
-.list-filtres {
-	display: flex;
-    flex-wrap: wrap;
-	justify-content: space-around;
-    margin-top: 30px;
-}
 .filtre {
     display: flex;
     align-content: center;
@@ -418,10 +412,6 @@ footer a {
     #recherche-marseille p {
         margin-left: 15px;
     }
-    #ville {
-        display: flex;
-        justify-content: center;
-    }
     .search {
         display: initial;
     }
@@ -508,6 +498,10 @@ footer a {
     #boutons_menu {
         order:4
     }
+    #boutons_menu {
+        display: flex;
+        justify-content: center;
+    }
     #recherche-marseille, #ville, #critere {
         margin-left: 10px;
     }
@@ -537,11 +531,15 @@ footer a {
     .hebergement {
         margin-left: 25px;
     }
-	.hebergement:hover, .activites:hover {
+	.activites:hover {
 		color: #0065FC;
 		border-bottom: none;
-		border-top: none;
+        border-top: none;
 	}
+    .hebergement:hover {/*--point a revoir---*/
+        text-decoration: underline;
+        color: #0065FC;
+    }
      /*-----Section Recherche-----*/
      .recherche {
         display: none;
@@ -553,6 +551,29 @@ footer a {
     #recherche-marseille p {
         margin-left: 15px;
     }
+    .list-filtres {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .filtre {
+        margin: 10px 0px 0px 5px;
+    }
+    .eco,
+    .fam,
+    .love,
+    .chien {
+        margin: 0px;
+    }
+    
+    .Marseille {
+        border: 1px solid whitesmoke;
+        width: 190px;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        margin-left: -5px;
+    }
     .search {
         display: initial;
     }
@@ -562,7 +583,7 @@ footer a {
 	    padding: 10px 15px;
 	    border-radius: 0px 15px 15px 0px;
         margin-left: -5px;
-        display: none;
+        color: #f2f2f2;
     }
     .info {
         margin-left: 10px;
@@ -659,8 +680,13 @@ footer a {
     #populaire {
         width: 45%;
     }
-    .etoile-bleu, .gris {
-        padding-top: 50px;
+    .etoile-bleu,
+    .gris {
+        padding-top: 25px;
+    }
+    .etoile-bleu1,
+    .gris1 {
+        padding-top: 5px;
     }
     /*-----activites marseille----*/
     #activites-marseille {
@@ -732,6 +758,12 @@ footer a {
     }
     .etoile-bleu1, .gris1 {
         padding-top: 40px;
+    }
+    .list-filtres {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 30px;
     }
 }
 
