@@ -363,9 +363,13 @@ footer a {
 
 /* ####### MEDIA-QUERY ######## */
 
-@media screen and (min-width: 320px) and (max-width: 680px){ /* Mobile */
+@media screen and (max-width: 320px) { /* Mobile */
 
     /* Header */
+    body {
+		margin: 0;
+		padding: 0;
+	}
     #boutons_menu {
         order:4
     }
@@ -395,6 +399,9 @@ footer a {
 		top: 10px;
 		left: 70%;
 	}
+    .hebergement {
+        margin-left: 15px;
+    }
 	.hebergement:hover, .activites:hover {
 		color: #0065FC;
 		border-bottom: none;
@@ -470,6 +477,50 @@ footer a {
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 680px) { /* Mobile */
+    body {
+		margin: 0;
+		padding: 0;
+	}
+    #boutons_menu {
+        order:4
+    }
+    #recherche-marseille, #ville, #critere {
+        margin-left: 10px;
+    }
+    .logo {
+		width: 60px;
+		height: 30px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+    #hautdepage {
+        width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+		border-bottom: 2px solid #F2F2F2;
+		padding: 0;
+		padding-bottom: 20px;
+    }
+	#hautdepage a {
+		margin-right: 0;
+		padding-right: 55px;
+	}
+	.inscrire {
+		position: absolute;
+		top: 10px;
+		left: 70%;
+	}
+    .hebergement {
+        margin-left: 15px;
+    }
+	.hebergement:hover, .activites:hover {
+		color: #0065FC;
+		border-bottom: none;
+		border-top: none;
+	}
+}
+
 @media screen and (min-width: 680px) and (max-width: 1024px) { /* Ipad */
     
     /*----haut de page----*/
