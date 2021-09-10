@@ -478,6 +478,7 @@ footer a {
     }
 }
 @media screen and (max-width: 680px) { /* Mobile */
+    /*---Header---*/
     body {
 		margin: 0;
 		padding: 0;
@@ -519,6 +520,23 @@ footer a {
 		border-bottom: none;
 		border-top: none;
 	}
+     /*-----Section Recherche-----*/
+     .recherche {
+        display: none;
+    }
+    .search {
+        display: initial;
+    }
+    .loupe {
+        width: 15px;
+	    background-color:#0065fc;
+	    padding: 10px 15px;
+	    border-radius: 0px 15px 15px 0px;
+        margin-left: -5px;
+        display: none;
+    }
+    /*---Section Hebergement---*/
+    
 }
 
 @media screen and (min-width: 680px) and (max-width: 1024px) { /* Ipad */
