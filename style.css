@@ -583,13 +583,12 @@ footer a {
     }
     .photo-populaire {
         border-radius: 15px;
-        box-shadow: 5px 5px 10px lightgrey;
         margin-top: 40px;
         display: flex;
         align-items: stretch;
         height: 100%;
         overflow: auto;
-        margin: 10px 0px 10px 0px;
+        margin: 10px 0px 0px 0px;
     }
      /*-----Activites Marseille-----*/
      .image-port-marseille,
