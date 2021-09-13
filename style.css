@@ -714,6 +714,12 @@ footer a {
         align-content: center;
         margin-left: 10px;
     }
+    #recherche-marseille p {
+        color: #f2f2f2;
+    }
+    .info p {
+        color: #f2f2f2;
+    }
     /*-----section hebergement-----*/
     #hebergement {
         width: 95%;
@@ -788,10 +794,22 @@ footer a {
         border-radius: 15px 10px 0px 0px;
         margin: auto;
     }
+    /*----footer----*/
+    .pied a {
+        display: flex;
+        flex-direction: column;
+        color: #f2f2f2;
+    }
 
 }
 @media all and (min-width: 1024px) {
     .activites {
+        color: #f2f2f2;
+    }
+    #recherche-marseille p {
+        color: #f2f2f2;
+    }
+    .info p {
         color: #f2f2f2;
     }
     .search {
@@ -815,6 +833,7 @@ footer a {
     .pied a {
         display: flex;
         flex-direction: column;
+        color: #f2f2f2;
     }
 }
 
