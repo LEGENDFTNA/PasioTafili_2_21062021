@@ -518,7 +518,6 @@ footer a {
 		align-items: flex-start;
 		border-bottom: 2px solid #F2F2F2;
 		padding: 0;
-		padding-bottom: 20px;
     }
 	#hautdepage a {
 		margin-right: 0;
@@ -532,17 +531,15 @@ footer a {
     .hebergement {
         padding: 20px 0px 0px 55px;
     }
-    .activites {
-        color: #f2f2f2;
-    }
 	.activites:hover {
 		color: #0065FC;
 		border-bottom: none;
         border-top: none;
 	}
-    .hebergement:hover {/*--point a revoir---*/
-        text-decoration: underline;
-        color: #0065FC;
+    .hebergement:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 20px;
     }
      /*-----Section Recherche-----*/
      .recherche {
@@ -603,6 +600,7 @@ footer a {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+        margin-left: -2px;
     }
     #marseille {
         width: 100%;
@@ -623,6 +621,7 @@ footer a {
     #populaire {
         width: 100%;
         margin-left: 0px;
+        border-radius: 0px;
     }
     .photo-populaire {
         border-radius: 15px;
@@ -701,9 +700,6 @@ footer a {
     .hebergement {
         padding-left: 0px;
         padding-right: 40px;
-    }
-    .activites {
-        color: #f2f2f2;
     }
     /*----Section recherche----*/
     .list-filtres {
@@ -799,14 +795,10 @@ footer a {
     .pied a {
         display: flex;
         flex-direction: column;
-        color: #f2f2f2;
     }
 
 }
 @media all and (min-width: 1024px) {
-    .activites {
-        color: #f2f2f2;
-    }
     #recherche-marseille p {
         color: #f2f2f2;
     }
@@ -834,7 +826,6 @@ footer a {
     .pied a {
         display: flex;
         flex-direction: column;
-        color: #f2f2f2;
     }
 }
 
