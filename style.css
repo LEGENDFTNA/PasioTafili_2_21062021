@@ -602,6 +602,7 @@ footer a {
     #hebergement {
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
     #marseille {
         width: 100%;
