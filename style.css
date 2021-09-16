@@ -289,9 +289,7 @@ h3 {
     width: 270px;
     box-shadow: 5px 5px 10px lightgrey;
     border-radius: 10px;
-}
-.parc-national {
-    margin-left: 70px;
+    margin: 0px;
 }
 .fort,
 .ile,
@@ -319,7 +317,7 @@ h3 {
     width: 230px;
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    align-items: center;
 }
 .image-parc-national-marseille {
     object-fit: cover;
@@ -558,7 +556,6 @@ footer a {
     }
     #recherche-marseille p {
         margin-left: 15px;
-        color: #F2F2F2;
     }
     .list-filtres {
         display: flex;
@@ -595,9 +592,6 @@ footer a {
     }
     .info {
         margin-left: 10px;
-    }
-    .info p {
-        color: #F2F2F2;
     }
     .fa-info {
         margin-top: 15px;
@@ -720,12 +714,6 @@ footer a {
         display: flex;
         align-content: center;
         margin-left: 10px;
-    }
-    #recherche-marseille p {
-        color: #F2F2F2;
-    }
-    .info p {
-        color: #F2F2F2;
     }
     /*-----section hebergement-----*/
     #hebergement {
