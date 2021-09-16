@@ -269,7 +269,7 @@ h3 {
 }
 /* ----------- Activites Marseille -----------*/
 #activites {
-    margin: 0px 20px 0px 20px;
+    margin: 40px 20px 0px 20px;
     width: auto;
 }
 #activites-marseille {
@@ -283,6 +283,23 @@ h3 {
 	width: 270px;
     height: 390px;
 	border-radius: 15px 10px 0px 0px;
+}
+.port,
+.parc-national {
+    width: 270px;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.parc-national {
+    margin-left: 70px;
+}
+.fort,
+.ile,
+.dame,
+.parc {
+    width: 230px;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
 }
 .image-fort-marseille {
     object-fit: cover;
@@ -310,7 +327,6 @@ h3 {
     height: 390px;
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
-    margin-left: 20px;
 }
 .image-dame-marseille {
     object-fit: cover;
@@ -335,6 +351,7 @@ footer {
 }
 footer {
     background-color: #F2F2F2;
+    margin-top: 40px;
 }
 .pied a {
     display: flex;
