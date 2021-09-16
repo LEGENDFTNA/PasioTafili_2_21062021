@@ -26,46 +26,31 @@ body{
 .activites:hover,
 .inscrire:hover {
     padding: 20px;
+    border-top: 2px solid #0065FC;
 }
 .inscrire {
     margin-right: 20px;
 }
-.activites {
-    padding-left: 30px;
-}
 #boutons_menu {
     display: flex;
-    justify-content: space-between;
-}
-#hautdepage a{
-    text-decoration: none;
-    padding-top: 20px;
-}
-#hautdepage a:hover
-{
-   color: blue;
 }
 .hebergerment, .activites:hover {
-	color: #0065FC;
 	border-top: 2px solid #0065FC;
+    border-bottom: none;
+    color: #0065FC;
 }
 .hebergement {
-	color:black;
-}
-.hebergement:hover {
-    border-top: 2px solid blue;
+    color: #0065FC;
+    border-bottom: none;
+    border-top: 2px solid #0065FC;
+    padding: 20px;
 }
 .activites {
-	color: black
-}
-.activites:hover {
-    border-top: 2px solid blue;
+	color: black;
+    margin: 0px 30px 0px 30px;
 }
 .inscrire {
 	color: #0065FC;
-}
-.inscrire:hover {
-    border-top: 2px solid blue;
 }
 /* ----------- Section Recherche ----------- */
 
@@ -79,7 +64,7 @@ body{
     width: auto;
 }
 .Marseille {
-    border: 1px solid whitesmoke;
+    border: 1px solid #F2F2F2;
     width: 130px;
     padding: 10px;
     font-weight: bold;
@@ -87,20 +72,20 @@ body{
     margin-left: -5px;  
  }
 .recherche:hover {
-     background-color: white;
-    color: blue;
+     background-color: #F2F2F2;
+    color: #0651ff;
 }
 .recherche {
     background-color:#0651ff;
     border: 1px solid #0651ff;
     border-radius: 0px 10px 10px 0px;
     padding: 10px;
-    color: white;
+    color: #F2F2F2;
     margin-left: -5px;
 }
 .localisation {
     width: 15px;
-	background-color: #f2f2f2;
+	background-color: #F2F2F2;
 	padding: 10px 15px;
 	border-radius: 15px 0 0 15px;
 }
@@ -117,7 +102,7 @@ body{
     margin-top: 15px;
 }
 .filtre-text {
-    border: 1px solid #e5e4e4;
+    border: 1px solid #F2F2F2;
     width: auto;
     padding: 10px;
     font-weight: bold;
@@ -127,34 +112,34 @@ body{
 }
 .filtre-text {
     border-radius: 0px 20px 20px 0px;
-    border-left: white;
+    border-left: #F2F2F2;
 }
 .eco {
     padding: 11px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #0065fc;
+	color: #0065FC;
     margin-left: 50px;
 }
 .fam {
     padding: 14px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #0065fc;
+	color: #0065FC;
     margin-left: 50px;
 }
 .love {
     padding: 12px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #0065fc;
+	color: #0065FC;
     margin-left: 50px;
 }
 .chien {
     padding: 12px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
-	color: #0065fc;
+	color: #0065FC;
     margin-left: 50px;
 }
 .info {
@@ -163,10 +148,10 @@ body{
 }
 .fa-info {
     padding: 8px;
-    border: 1px solid #f1f2f2;
+    border: 1px solid #F2F2F2;
     border-radius: 50%;
     height: 50%;
-    color: #0065fc;
+    color: #0065FC;
 }
 /* ----------- Section Hebergements ----------- */
 #hebergement {
@@ -181,8 +166,8 @@ h2 {
 }
 #marseille {
 	width: 65%;
-	border: 1px solid #f2f2f2;
-	background-color: #f2f2f2;
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
 	border-radius: 15px;
 }
 #heb-marseille {
@@ -200,7 +185,7 @@ h2 {
 .photo-hebergement {
     width: 230px;
     border-radius: 10px 10px;
-	box-shadow: 5px 5px 10px lightgrey;
+	box-shadow: 5px 5px 10px #F2F2F2;
     margin: 15px;
 }
 figcaption h3, figcaption p {
@@ -420,7 +405,7 @@ footer a {
     }
     .loupe {
         width: 15px;
-	    background-color:#0065fc;
+	    background-color:#0065FC;
 	    padding: 10px 15px;
 	    border-radius: 0px 15px 15px 0px;
         margin-left: -5px;
@@ -536,10 +521,14 @@ footer a {
 		border-bottom: none;
         border-top: none;
 	}
-    .hebergement:hover {
+    .hebergement, .activites:hover {
         border-top: none;
         border-bottom: 2px solid #0065FC;
+        color: #0065FC;
         padding-bottom: 20px;
+    }
+    .hebergement:hover {
+        border-top: none;
     }
      /*-----Section Recherche-----*/
      .recherche {
@@ -580,7 +569,7 @@ footer a {
     }
     .loupe {
         width: 15px;
-	    background-color:#0065fc;
+	    background-color:#0065FC;
 	    padding: 10px 15px;
 	    border-radius: 0px 15px 15px 0px;
         margin-left: -5px;
@@ -799,12 +788,6 @@ footer a {
 
 }
 @media all and (min-width: 1024px) {
-    #recherche-marseille p {
-        color: #f2f2f2;
-    }
-    .info p {
-        color: #f2f2f2;
-    }
     .search {
         display: none;
     }
