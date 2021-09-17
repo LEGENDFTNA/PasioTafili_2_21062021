@@ -616,10 +616,12 @@ footer a {
         object-fit: cover;
     }
     .photo-hebergement {
-        width: 100%;
+        width: 330px;
         margin: 10px 0px 10px 0px;
         box-shadow: 5px 5px 10px lightgrey;
         background: white;
+        height: 100%;
+        margin-left: 25px;
     }
     /*------Aside Populaire-----*/
     #populaire {
@@ -648,8 +650,8 @@ footer a {
         margin: 10px 0px 0px 0px;
         box-shadow: 5px 5px 10px lightgrey;
         background: white;
-        width: 310px;
-        margin-left: 10px;
+        width: 329px;
+        margin-left: 25px;
     }
     .etoile-bleu, .gris {
         padding-top: 35px;
