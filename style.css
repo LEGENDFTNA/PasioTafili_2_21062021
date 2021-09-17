@@ -612,6 +612,10 @@ footer a {
         margin-left: -20px;
         color: #F2F2F2;
     }
+    .loupe:hover {
+        background-color: #F2F2F2;
+       color: #0651ff;
+   }
     .info {
         margin-left: 10px;
     }
