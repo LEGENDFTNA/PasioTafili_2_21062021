@@ -122,12 +122,22 @@ body{
 	color: #0065FC;
     margin-left: 50px;
 }
+.eco:hover {
+	border: 1px solid #0065FC;
+	box-shadow: 5px 5px 20px grey;
+	color: #0065FC;
+}
 .fam {
     padding: 14px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
 	color: #0065FC;
     margin-left: 50px;
+}
+.fam:hover {
+	border: 1px solid #0065FC;
+	box-shadow: 5px 5px 20px grey;
+	color: #0065FC;
 }
 .love {
     padding: 12px;
@@ -136,12 +146,22 @@ body{
 	color: #0065FC;
     margin-left: 50px;
 }
+.love:hover {
+	border: 1px solid #0065FC;
+	box-shadow: 5px 5px 20px grey;
+	color: #0065FC;
+}
 .chien {
     padding: 12px;
 	background-color: #DFEDFF;
 	border-radius: 50%;
 	color: #0065FC;
     margin-left: 50px;
+}
+.chien:hover {
+	border: 1px solid #0065FC;
+	box-shadow: 5px 5px 20px grey;
+	color: #0065FC;
 }
 .info {
     display: flex;
@@ -179,13 +199,14 @@ h2 {
 }
 .image-hebergement {
     object-fit: cover;
-	width: 230px;
+    width: 220px;
     height: 140px;
-	border-radius: 15px 15px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid white;
 }
 .photo-hebergement {
     width: 230px;
-    border-radius: 10px 10px;
+    border-radius: 20px;
 	box-shadow: 5px 5px 10px lightgrey;
     margin: 15px;
     background: white;
@@ -228,8 +249,8 @@ h3 {
     height: 130px;
     object-fit: cover;
     border-bottom: 0px;
-	border-radius: 15px 0px 0px 15px;
-	border: 5px solid #F2F2F2;
+	border-radius: 20px 0px 0px 20px;
+	border: 5px solid white;
 }
 #populaire-marseille {
     display: flex;
