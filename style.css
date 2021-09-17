@@ -33,6 +33,7 @@ body{
 }
 #boutons_menu {
     display: flex;
+    margin-right: 15px;
 }
 .hebergerment, .activites:hover {
 	border-top: 2px solid #0065FC;
@@ -586,8 +587,8 @@ footer a {
         width: 15px;
 	    background-color:#0065FC;
 	    padding: 10px 15px;
-	    border-radius: 0px 15px 15px 0px;
-        margin-left: -5px;
+	    border-radius: 15px 15px 15px 15px;
+        margin-left: -20px;
         color: #F2F2F2;
     }
     .info {
@@ -626,6 +627,17 @@ footer a {
         margin-left: 0px;
         border-radius: 0px;
     }
+    #populaire-marseille {
+        margin-bottom: 30px;
+    }
+    .image-populaire {
+        width: 120px;
+        height: 130px;
+        object-fit: cover;
+        border-bottom: 0px;
+        border-radius: 15px 0px 0px 15px;
+        border: 5px solid white;
+    }
     .photo-populaire {
         border-radius: 15px;
         margin-top: 40px;
@@ -636,7 +648,11 @@ footer a {
         margin: 10px 0px 0px 0px;
         box-shadow: 5px 5px 10px lightgrey;
         background: white;
-
+        width: 310px;
+        margin-left: 10px;
+    }
+    .etoile-bleu, .gris {
+        padding-top: 35px;
     }
      /*-----Activites Marseille-----*/
      .image-port-marseille,
