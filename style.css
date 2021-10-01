@@ -182,6 +182,10 @@ body{
 #hebergement h2 {
     padding-left: 20px;
 }
+.lien-hebergement {
+    text-decoration: none;
+    color: black;
+}
 h2 {
     flex-basis: 100%;
 }
@@ -234,6 +238,10 @@ h3 {
 	border: 1px solid #F2F2F2;
 	background-color: #F2F2F2;
 	border-radius: 15px;
+}
+.lien-populaire {
+    text-decoration: none;
+    color: black;
 }
 .titre {
     display: flex;
@@ -299,6 +307,10 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.lien-activite {
+    text-decoration: none;
+    color: black;
 }
 .image-port-marseille {
     object-fit: cover;
@@ -642,6 +654,11 @@ footer a {
         height: 140px;
         border: 5px solid white;
     }
+    .lien-hebergement {
+        text-decoration: none;
+        color: black;
+        margin-bottom: 15px;
+    }
     .photo-hebergement {
         width: 330px;
         margin: 10px 0px 10px 0px;
@@ -659,6 +676,10 @@ footer a {
     }
     #populaire-marseille {
         margin-bottom: 30px;
+    }
+    .lien-populaire {
+        text-decoration: none;
+        color: black;
     }
     .image-populaire {
         width: 120px;
@@ -696,6 +717,11 @@ footer a {
          height: 140px;
          border-radius: 20px 20px 0px 0px;
      }
+     .lien-activite {
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
      .image-parc-national-marseille {
          margin-left: 0px;
      }
