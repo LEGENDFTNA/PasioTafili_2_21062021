@@ -825,8 +825,26 @@ footer a {
         background: white;
         height: 200px;
     }
+    /*----section populaire----*/
     #populaire {
         width: 45%;
+    }
+    .image-populaire {
+        width: 70px;
+        height: 130px;
+        object-fit: cover;
+        border-bottom: 0px;
+        border-radius: 20px 0px 0px 20px;
+        border: 5px solid white;
+    }
+    .photo-populaire {
+        display: flex;
+        width: auto;
+        height: 140px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px lightgrey;
+        margin-top: 40px;
+        background: white;
     }
     .etoile-bleu,
     .gris {
