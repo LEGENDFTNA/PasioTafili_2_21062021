@@ -300,10 +300,7 @@ h3 {
     padding-top: 40px;
 }
 /* ----------- Activites Marseille -----------*/
-#activites {
-    margin: 40px 20px 0px 20px;
-    width: auto;
-}
+
 #activites-marseille {
     display: flex;
     flex-direction: row;
@@ -838,16 +835,28 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+    margin: 20px 0px 20px 20px;
     }
     .image-port-marseille {
         object-fit: cover;
-        width: 135px;
+        width: 155px;
         height: 255px;
         border-radius: 15px 10px 0px 0px;
     }
     .port {
-        width: 135px;
-        height: 255px;
+        width: 155px;
+        height: 315px;
+    }
+    .lien-port {
+        width: 155px;
+        height: 315px;
+    }
+    .port, .parc-national {
+        width: 155px;
+        box-shadow: 5px 5px 10px lightgrey;
+        border-radius: 10px;
+        margin: 0px;
     }
     .image-fort-marseille {
         object-fit: cover;
@@ -857,9 +866,35 @@ h3 {
         border-radius: 15px 10px 0px 0px;
         margin: auto;
     }
+    .fort, .ile, .dame, .parc {
+        width: 155px;
+        box-shadow: 5px 5px 10px lightgrey;
+        border-radius: 10px;
+        margin: 0px;
+    }
+    .photo-activite {
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lien-fort,
+    .lien-ile,
+    .lien-parc-national,
+    .lien-port,
+    .lien-dame,
+    .lien-parc {
+        text-decoration: none;
+        color: black;
+    }
     .fort {
         width: 135px;
-        height: 90px;
+        height: 150px;
+    }
+    .lien-fort {
+        width: 135px;
+        height: 150px;
     }
     .image-ile-marseille {
         object-fit: cover;
@@ -871,25 +906,26 @@ h3 {
     }
     .ile {
         width: 135px;
-        height: 60px;
+        height: 120px;
     }
-    .photo-activite {
-        width: 20%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 265px;
+    .lien-ile {
+        width: 135px;
+        height: 120px;
     }
     .image-parc-national-marseille {
         object-fit: cover;
-        width: 135px;
+        width: 155px;
         height: 255px;
         border-bottom: 0px;
         border-radius: 15px 10px 0px 0px;
     }
     .parc-national {
-        width: 135px;
-        height: 255px;
+        width: 155px;
+        height: 315px;
+    }
+    .lien-parc-national {
+        width: 155px;
+        height: 315px;
     }
     .image-dame-marseille {
         object-fit: cover;
@@ -901,7 +937,11 @@ h3 {
     }
     .dame {
         width: 135px;
-        height: 60px;
+        height: 120px;
+    }
+    .lien-dame {
+        width: 135px;
+        height: 120px;
     }
     .image-parc-marseille {
         object-fit: cover;
@@ -913,7 +953,11 @@ h3 {
     }
     .parc {
         width: 135px;
-        height: 90px;
+        height: 150px;
+    }
+    .lien-parc {
+        width: 135px;
+        height: 150px;
     }
     /*----footer----*/
     footer {
@@ -966,6 +1010,19 @@ h3 {
         flex-direction: row;
         justify-content: space-between;
         margin: 0px 2px 0px 20px;
+    }
+    #activites {
+        margin: 40px 20px 0px 20px;
+        width: auto;
+    }
+    .lien-fort,
+    .lien-ile,
+    .lien-parc-national,
+    .lien-port,
+    .lien-dame,
+    .lien-parc {
+        text-decoration: none;
+        color: black;
     }
     footer {
         display: flex;
