@@ -690,15 +690,10 @@ h3 {
      .image-parc-national-marseille,
      .image-parc-marseille {
          object-fit: cover;
-         width: 100%;
+         width: 330px;
          height: 140px;
          border-radius: 20px 20px 0px 0px;
      }
-     .lien-activite {
-        text-decoration: none;
-        color: black;
-        width: 100%;
-    }
      .image-parc-national-marseille {
          margin-left: 0px;
      }
@@ -706,14 +701,6 @@ h3 {
          width: 100%;
          margin-right: 0px;
      }
-     .port,
-     .dame,
-     .fort,
-     .parc-national,
-     .parc,
-     .ile {
-        margin: 0px;
-    }
     .port,
      .dame,
      .fort,
@@ -721,12 +708,17 @@ h3 {
      .parc,
      .ile
      {
-        width: 100%;
+        width: 330px;
         border-radius: 10px 10px;
         box-shadow: 5px 5px 10px #F2F2F2;
         border-radius: 20px 20px 20px 20px;
-        margin-bottom: 20px;
+        margin: 0px 5px 20px 25px;
     }
+    .lien-activite {
+         text-decoration: none;
+         color: black;
+         width: 100%;
+     }
      /*-------Footer-------*/
     footer {
         display: flex;
@@ -738,6 +730,8 @@ h3 {
         display: flex;
         flex-direction: column;
         margin-left: 40px;
+        text-decoration: none;
+        color: black;
     }
 }
 
@@ -847,11 +841,7 @@ h3 {
     .port {
         width: 155px;
         height: 315px;
-    }
-    .lien-port {
-        width: 155px;
-        height: 315px;
-    }
+        }
     .port, .parc-national {
         width: 155px;
         box-shadow: 5px 5px 10px lightgrey;
@@ -879,20 +869,11 @@ h3 {
         align-items: center;
         justify-content: space-between;
     }
-    .lien-fort,
-    .lien-ile,
-    .lien-parc-national,
-    .lien-port,
-    .lien-dame,
-    .lien-parc {
+    .lien-activite {
         text-decoration: none;
         color: black;
     }
     .fort {
-        width: 135px;
-        height: 150px;
-    }
-    .lien-fort {
         width: 135px;
         height: 150px;
     }
@@ -908,10 +889,6 @@ h3 {
         width: 135px;
         height: 120px;
     }
-    .lien-ile {
-        width: 135px;
-        height: 120px;
-    }
     .image-parc-national-marseille {
         object-fit: cover;
         width: 155px;
@@ -920,10 +897,6 @@ h3 {
         border-radius: 15px 10px 0px 0px;
     }
     .parc-national {
-        width: 155px;
-        height: 315px;
-    }
-    .lien-parc-national {
         width: 155px;
         height: 315px;
     }
@@ -939,10 +912,6 @@ h3 {
         width: 135px;
         height: 120px;
     }
-    .lien-dame {
-        width: 135px;
-        height: 120px;
-    }
     .image-parc-marseille {
         object-fit: cover;
         width: 135px;
@@ -952,10 +921,6 @@ h3 {
         margin: auto;
     }
     .parc {
-        width: 135px;
-        height: 150px;
-    }
-    .lien-parc {
         width: 135px;
         height: 150px;
     }
