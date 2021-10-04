@@ -799,9 +799,31 @@ footer a {
         align-content: center;
         margin-left: 10px;
     }
+    .list-filtres {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
     /*-----section hebergement-----*/
     #hebergement {
         width: 95%;
+    }
+    .image-hebergement {
+        object-fit: cover;
+        width: 170px;
+        height: 80px;
+        border-radius: 20px 20px 0px 0px;
+        border: 5px solid white;
+    }
+    .photo-hebergement {
+        width: 180px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px lightgrey;
+        margin: 15px;
+        background: white;
+        height: 200px;
     }
     #populaire {
         width: 45%;
