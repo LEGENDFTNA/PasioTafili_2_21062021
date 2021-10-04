@@ -40,10 +40,12 @@ body{
     border-bottom: none;
     color: #0065FC;
 }
-.hebergement {
+.hebergement:hover {
     color: #0065FC;
+}
+.hebergement {
+    color: black;
     border-bottom: none;
-    border-top: 2px solid #0065FC;
     padding: 20px;
 }
 .activites {
@@ -764,7 +766,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 680px) and (max-width: 1024px) { /* Ipad */
+@media screen and (min-width: 680px) and (max-width: 1080px) { /* Ipad */
     
     /*----haut de page----*/
     #hautdepage {
@@ -772,11 +774,21 @@ footer a {
         flex-direction: row;
         justify-content: space-between;
     }
-    .activites,
-    .hebergement {
-        padding-left: 0px;
-        padding-right: 40px;
+    .hebergement, .activites, .inscrire {
+        font-size: 12px;
+        text-decoration: none;
+        padding-top: 20px;
     }
+    .hebergement:hover,
+    .activites:hover,
+    .inscrire:hover {
+    padding: 10px;
+    border-top: 2px solid #0065FC;
+    }
+    #boutons_menu {
+        display: flex;
+        margin-right: 15px;
+         }
     /*----Section recherche----*/
     .list-filtres {
         display: flex;
@@ -804,16 +816,20 @@ footer a {
     }
     /*-----activites marseille----*/
     #activites-marseille {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     }
     .image-port-marseille {
         object-fit: cover;
         width: 135px;
-        height: 295px;
+        height: 255px;
         border-radius: 15px 10px 0px 0px;
+    }
+    .port {
+        width: 135px;
+        height: 255px;
     }
     .image-fort-marseille {
         object-fit: cover;
@@ -823,6 +839,10 @@ footer a {
         border-radius: 15px 10px 0px 0px;
         margin: auto;
     }
+    .fort {
+        width: 135px;
+        height: 90px;
+    }
     .image-ile-marseille {
         object-fit: cover;
         width: 135px;
@@ -831,19 +851,27 @@ footer a {
         border-radius: 15px 10px 0px 0px;
         margin: auto;
     }
+    .ile {
+        width: 135px;
+        height: 60px;
+    }
     .photo-activite {
         width: 20%;
         display: flex;
         flex-direction: column;
-        margin: auto;
+        align-items: center;
+        height: 265px;
     }
     .image-parc-national-marseille {
         object-fit: cover;
         width: 135px;
-        height: 295px;
+        height: 255px;
         border-bottom: 0px;
         border-radius: 15px 10px 0px 0px;
-        margin: 0px 0px 0px 60px;
+    }
+    .parc-national {
+        width: 135px;
+        height: 255px;
     }
     .image-dame-marseille {
         object-fit: cover;
@@ -853,6 +881,10 @@ footer a {
         border-radius: 15px 10px 0px 0px;
         margin: 0px 20px 0px 0px;
     }
+    .dame {
+        width: 135px;
+        height: 60px;
+    }
     .image-parc-marseille {
         object-fit: cover;
         width: 135px;
@@ -861,6 +893,10 @@ footer a {
         border-radius: 15px 10px 0px 0px;
         margin: auto;
     }
+    .parc {
+        width: 135px;
+        height: 90px;
+    }
     /*----footer----*/
     .pied a {
         display: flex;
@@ -868,7 +904,7 @@ footer a {
     }
 
 }
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1080px) {
     .search {
         display: none;
     }
