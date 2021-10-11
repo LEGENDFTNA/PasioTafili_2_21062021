@@ -536,27 +536,21 @@ h3 {
 		position: absolute;
 		top: 10px;
 		left: 70%;
+        padding: 20px;
 	}
-    .hebergement {
-        padding: 20px 20px 0px 20px;
-        margin-left: 20px;
-    }
-    .activites {
-        margin-left: 70px;
-    }
-	.activites:hover {
-		color: #0065FC;
-		border-bottom: none;
+    .inscrire:hover {
         border-top: none;
-	}
-    .hebergement, .activites:hover {
+    }
+    .hebergement,
+    .activites {
+        padding: 20px 65px;
+        margin: 0px;
+    }
+    .hebergement:hover,
+    .activites:hover {
         border-top: none;
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
-        padding-bottom: 20px;
-    }
-    .hebergement:hover {
-        border-top: none;
     }
      /*-----Section Recherche-----*/
      .recherche {
