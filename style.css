@@ -407,13 +407,6 @@ h3 {
 		top: 10px;
 		left: 70%;
 	}
-    .hebergement {
-        margin-left: 15px;
-    }
-	.hebergement:hover, .activites:hover {
-		color: #0065FC;
-		border-top: none;
-	}
     /*-----Section Recherche-----*/
     .recherche {
         display: none;
@@ -550,7 +543,11 @@ h3 {
     .activites:hover {
         border-top: none;
         border-bottom: 2px solid #0065FC;
-        color: #0065FC;
+    }
+    .hebergement:active,
+    .activites:active {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
     }
      /*-----Section Recherche-----*/
      .recherche {
