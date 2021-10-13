@@ -718,6 +718,7 @@ h3 {
         flex-direction: column;
         flex-wrap: wrap;
         margin-top: 30px;
+        margin-bottom: 40px;
     }
     .pied a {
         display: flex;
