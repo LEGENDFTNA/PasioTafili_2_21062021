@@ -17,18 +17,16 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.hebergement, .activites, .inscrire {
+.hebergement,
+.activites,
+.inscrire {
 	font-size: 12px;
 	text-decoration: none;
-    padding-top: 20px;
 }
 .hebergement:hover,
 .activites:hover,
 .inscrire:hover {
     border-top: 2px solid #0065FC;
-}
-.inscrire {
-    margin-right: 20px;
 }
 #boutons_menu {
     display: flex;
@@ -45,7 +43,7 @@ body{
 .hebergement {
     color: black;
     border-bottom: none;
-    padding: 20px;
+    padding: 50px;
 }
 .activites {
 	color: black;
@@ -55,6 +53,7 @@ body{
 .inscrire {
 	color: #0065FC;
     padding: 20px 20px 0px 20px;
+    margin-right: 20px;
 }
 /* ----------- Section Recherche ----------- */
 
@@ -952,6 +951,16 @@ h3 {
 
 }
 @media all and (min-width: 1080px) {
+    /*---------header--------*/
+    .logo {
+        padding: 50px;
+        margin: 0px;
+    }
+    .hebergerment,
+    .activites,
+    .inscrire {
+        padding: 50px;
+    }
     .search {
         display: none;
     }
@@ -970,6 +979,7 @@ h3 {
         justify-content: space-between;
         margin: 0px 2px 0px 20px;
     }
+    /*----------activites---------*/
     #activites {
         margin: 40px 20px 0px 20px;
         width: auto;
@@ -983,6 +993,7 @@ h3 {
         text-decoration: none;
         color: black;
     }
+    /*-----footer----*/
     footer {
         display: flex;
         justify-content: space-between;
