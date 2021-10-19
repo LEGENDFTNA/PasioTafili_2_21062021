@@ -24,8 +24,7 @@ body{
 	text-decoration: none;
 }
 .hebergement:hover,
-.activites:hover,
-.inscrire:hover {
+.activites:hover {
     border-top: 2px solid #0065FC;
 }
 #boutons_menu {
@@ -95,70 +94,55 @@ body{
 .search {
     display: none;
 }
-.filtre {
-    display: flex;
-    align-content: center;
-    margin-left: 60px;
-}
 .list-filtres {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 15px;
 }
-.filtre-text {
-    border: 2px solid #F2F2F2;
+.filtre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
     width: auto;
-    padding: 10px;
-    font-weight: bold;
-    color: black;
-    padding-left: 25px;
-    margin-left: -12px;
+    margin: 0 6px;
+    border: 1px solid #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    padding: 0px 15px 0px 0px;
 }
-.filtre-text {
-    border-radius: 0px 20px 20px 0px;
-    border-left: #F2F2F2;
+.filtre i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.eco {
-    padding: 11px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #0065FC;
-    margin-left: 50px;
+.filtres1 {
+    margin: 0px 15px;
+}
+.eco,
+.fam,
+.chien,
+.love {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    height: 38px;
+    width: 38px;
+    border-radius: 999px;
 }
 .eco:hover {
 	border: 1px solid #0065FC;
 	box-shadow: 5px 5px 20px grey;
 	color: #0065FC;
 }
-.fam {
-    padding: 14px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #0065FC;
-    margin-left: 50px;
-}
 .fam:hover {
 	border: 1px solid #0065FC;
 	box-shadow: 5px 5px 20px grey;
 	color: #0065FC;
 }
-.love {
-    padding: 12px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #0065FC;
-    margin-left: 50px;
-}
 .love:hover {
 	border: 1px solid #0065FC;
 	box-shadow: 5px 5px 20px grey;
 	color: #0065FC;
-}
-.chien {
-    padding: 12px;
-	background-color: #DFEDFF;
-	border-radius: 50%;
-	color: #0065FC;
-    margin-left: 50px;
 }
 .chien:hover {
 	border: 1px solid #0065FC;
@@ -168,6 +152,7 @@ body{
 .info {
     display: flex;
     flex-direction: row;
+    padding: 30px;
 }
 .fa-info {
     padding: 8px;
@@ -175,6 +160,9 @@ body{
     border-radius: 50%;
     height: 50%;
     color: #0065FC;
+}
+#recherche-marseille p {
+    margin: 10px;
 }
 /* ----------- Section Hebergements ----------- */
 #hebergement {
@@ -508,6 +496,7 @@ h3 {
     }
     #recherche-marseille, #ville, #critere {
         margin-left: 10px;
+        margin-top: 20px;
     }
     .logo {
 		width: 60px;
@@ -553,11 +542,11 @@ h3 {
         display: none;
     }
     #recherche-marseille h2 {
-        margin-top: 20px;
-        margin-left: 15px;
+        margin: 30px 10px 5px 15px;
     }
     #recherche-marseille p {
         margin-left: 15px;
+        font-size: 13px;
     }
     .list-filtres {
         display: flex;
@@ -565,7 +554,14 @@ h3 {
         flex-wrap: wrap;
     }
     .filtre {
-        margin: 10px 0px 0px 5px;
+        margin-left: 20px;
+        display: flex;
+        align-content: center;
+        margin-right: 11px;
+        margin-top: 12px;
+    }
+    .filtres1 {
+        flex-basis: 100%;
     }
     .eco,
     .fam,
@@ -601,7 +597,7 @@ h3 {
         padding-top: 25px;
     }
     .fa-info {
-        margin-top: 15px;
+        margin-top: 10px;
     }
     /*---Section Hebergement---*/
     #hebergement {
