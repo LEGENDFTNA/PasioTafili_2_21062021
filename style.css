@@ -10,6 +10,12 @@ body{
     height: 45px;
     margin-left: 20px;
 }
+main {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+}
 .entete {
     flex-basis: 80%;
 }
@@ -64,6 +70,9 @@ body{
 }
 .Marseille {
     width: auto;
+}
+#ville {
+    margin-top: 20px;
 }
 .Marseille {
     border: 1px solid #F2F2F2;
@@ -361,6 +370,27 @@ h3 {
 	border-bottom: 0px;
 	border-radius: 15px 10px 0px 0px;
 }
+        /*----footer----*/
+footer div{
+    display: flex;
+    height: 150px;
+    width: 325px;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  footer div h3 {
+    line-height: 2;
+    margin-left: initial;
+  }
+  footer div h3:hover {
+    cursor: pointer;
+  }
+  footer div p {
+    line-height: 2;
+  }
+  footer div p:hover {
+    cursor: pointer;
+  }
 
 /* ####### MEDIA-QUERY ######## */
 
@@ -482,7 +512,30 @@ h3 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        background-color: #f2f2f2;
     }
+    footer div{
+       display: flex;
+       flex-direction: column;
+       width: 325px;
+       height: auto;
+       margin-left: 50px;
+     }
+    footer div h3 {
+       line-height: 2;
+       margin-left: initial;
+     }
+     footer div h3:hover {
+       cursor: pointer;
+     }
+     footer div p {
+       line-height: 2;
+     }
+     footer div p:hover {
+       cursor: pointer;
+     }
 }
 @media screen and (max-width: 680px) { /* Mobile */
     /*---Header---*/
@@ -490,6 +543,10 @@ h3 {
 		margin: 0;
 		padding: 0;
 	}
+    main {
+        margin: 0;
+        padding: 0;
+    }
     #boutons_menu {
         display: flex;
         justify-content: center;
@@ -708,20 +765,34 @@ h3 {
          width: 100%;
      }
      /*-------Footer-------*/
-    footer {
+     footer {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         margin-top: 30px;
+         padding-bottom: 20px;
+         background-color: #f2f2f2;
+     }
+     footer div{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
-    .pied a {
-        display: flex;
-        flex-direction: column;
-        margin-left: 40px;
-        text-decoration: none;
-        color: black;
-    }
+        width: 325px;
+        height: auto;
+        margin-left: 50px;
+      }
+     footer div h3 {
+        line-height: 2;
+        margin-left: initial;
+      }
+      footer div h3:hover {
+        cursor: pointer;
+      }
+      footer div p {
+        line-height: 2;
+      }
+      footer div p:hover {
+        cursor: pointer;
+      }
 }
 
 @media screen and (min-width: 680px) and (max-width: 1080px) { /* Ipad */
@@ -729,6 +800,10 @@ h3 {
     body {
         font-family: "Raleway", sans-serif;
         margin: 0px auto;
+    }
+    main {
+        margin: 0;
+        padding: 0;
     }
     /*----haut de page----*/
     #hautdepage {
@@ -914,37 +989,34 @@ h3 {
         height: 150px;
     }
     /*----footer----*/
+
     footer {
+        width: 100%;
+        height: 200px;
+        background-color: #f2f2f2;
         display: flex;
-        justify-content: space-around;
-    }
-    footer {
-        background-color: #F2F2F2;
-        margin-top: 40px;
-    }
-    footer h3 {
+        align-content: space-around;
+      }
+      footer div {
         display: flex;
-        align-items: flex-end;
-        align-content: flex-start;
-        margin-left: 10px;
-        flex-basis: 100%;
-    }
-    footer a {
-        color: black;
-        margin-top: 10px;
-        text-decoration: none;
-        margin-left: 10px;
-    }
-    .pied a {
-        display: flex;
+        height: 150px;
         flex-direction: column;
         justify-content: space-between;
+        margin-left: 50px;
     }
-    .pied a {
-        display: flex;
-        flex-direction: column;
-    }
-
+      footer div h3 {
+        line-height: 2;
+        margin-left: initial;
+      }
+      footer div h3:hover {
+        cursor: pointer;
+      }
+      footer div p {
+        line-height: 2;
+      }
+      footer div p:hover {
+        cursor: pointer;
+      }
 }
 @media all and (min-width: 1080px) {
     /*---------header--------*/
@@ -991,30 +1063,13 @@ h3 {
     }
     /*-----footer----*/
     footer {
+        width: 100%;
+        height: 300px;
+        background-color: #f2f2f2;
         display: flex;
-        justify-content: space-between;
-        padding-left: 20px;
-        padding-right: 120px;
-    }
-    footer {
-        background-color: #F2F2F2;
-        margin-top: 40px;
-    }
-    .pied a {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 40px;
-    }
-    footer a {
-        color: black;
-        margin-top: 10px;
-        text-decoration: none;
-    }
-    .pied a {
-        display: flex;
-        flex-direction: column;
-    }
+        flex-wrap: wrap;
+        align-content: space-around;
+      }
 }
 
 
